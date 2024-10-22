@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Raleway:wght@800&display=swap');
+
+* {
+    font-family: "Nunito", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    z-index: 10; /* Make sure it's above other content */
+}
+
+header .company-name {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    color: #929EE3;
+    letter-spacing: 2px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 7%;
+    background: #eee;
+    min-height: 100vh;
+    gap: 15px;
+    padding-bottom: 80px;
+    position: relative;
+}
+
+.container .content {
+    flex: 1 1 400px;
+}
+
+.container .image {
+    flex: 1 1 400px;
+}
+
+.container .image img {
+    width: 100%;
+}
+
+.container .title {
+    font-size: 45px;
+    text-transform: uppercase;
+    color: #929EE3;
+}
+
+.container p {
+    color: #666;
+    padding: 5px 0;
+}
+
+.container .countdown {
+    display: flex;
+    gap: 15px;
+    padding: 10px 0;
+}
+
+.container .countdown .box {
+    padding: 5px 0;
+    background: #fff;
+    border: 1px solid #333;
+    text-align: center;
+    flex: 1 1 20px;
+}
+
+.container .countdown .box h3 {
+    font-size: 50px;
+    color: #333;
+}
+
+.container .countdown .box span {
+    font-size: 20px;
+    color: #929EE3;
+}
+
+.container .btn {
+    display: inline-block;
+    padding: 8px 50px;
+    margin: 10px 0;
+    font-size: 17px;
+    background: #929EE3;
+    color: #fff;
+    transition: 0.3s ease-out;
+}
+
+.container .btn:hover {
+    letter-spacing: 2px;
+}
